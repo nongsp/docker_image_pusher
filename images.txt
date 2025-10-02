@@ -2,7 +2,7 @@ nginx
 #支持私库
 
 #支持指定架构
---platform=linux/armv7 ghcr.io/beck-8/subs-check:latest
+#--platform=linux/armv7 ghcr.io/beck-8/subs-check:latest
 --platform=linux/arm64 ghcr.io/beck-8/subs-check:latest
 --platform=linux/arm64 privoce/vocechat-server:latest
 --platform=linux/armv7 mzz2017/v2raya:latest
